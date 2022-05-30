@@ -1,0 +1,16 @@
+
+.box
+{
+    height: 200px;
+    width: 200px;
+    margin: 60px;
+    padding-top: 60px;
+    background-color: purple;
+    transition-duration: 2s;
+    transition-property: transform;
+    transition-timing-function: ease;
+}
+.box:hover{
+    background: red;
+    transform: rotate(45deg);
+}
